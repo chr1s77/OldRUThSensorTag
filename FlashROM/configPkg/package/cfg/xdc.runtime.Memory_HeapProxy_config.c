@@ -2,7 +2,7 @@
  *  Do not modify this file; it is automatically 
  *  generated and any modifications will be overwritten.
  *
- * @(#) xdc-A71
+ * @(#) xdc-A65
  */
 
 #define __nested__
@@ -74,6 +74,7 @@
 #include <xdc/runtime/Registry.h>
 #include <xdc/runtime/Startup.h>
 #include <xdc/runtime/SysCallback.h>
+#include <xdc/runtime/SysStd.h>
 #include <xdc/runtime/System.h>
 #include <xdc/runtime/Text.h>
 #include <xdc/runtime/Timestamp.h>
@@ -161,13 +162,13 @@ xdc_runtime_Memory_HeapProxy_Handle xdc_runtime_Memory_HeapProxy_create( const x
 }
 
 /* Object__delete__S */
-void xdc_runtime_Memory_HeapProxy_Object__delete__S( xdc_Ptr instp ) 
+void xdc_runtime_Memory_HeapProxy_Object__delete__S( Ptr instp ) 
 {
     ti_sysbios_heaps_HeapMem_Object__delete__S(instp);
 }
 
 /* delete */
-void xdc_runtime_Memory_HeapProxy_delete(xdc_runtime_Memory_HeapProxy_Handle *instp)
+Void xdc_runtime_Memory_HeapProxy_delete(xdc_runtime_Memory_HeapProxy_Handle *instp)
 {
     xdc_runtime_Memory_HeapProxy_Object__delete__S(instp);
 }
@@ -179,7 +180,7 @@ void xdc_runtime_Memory_HeapProxy_Params__init__S( xdc_Ptr dst, const void *src,
 }
 
 /* Handle__label__S */
-xdc_runtime_Types_Label *xdc_runtime_Memory_HeapProxy_Handle__label__S(xdc_Ptr obj, xdc_runtime_Types_Label *lab)
+xdc_runtime_Types_Label *xdc_runtime_Memory_HeapProxy_Handle__label__S(Ptr obj, xdc_runtime_Types_Label *lab)
 {
     return ti_sysbios_heaps_HeapMem_Handle__label__S(obj, lab);
 }

@@ -31,6 +31,7 @@ ORDERED_OBJS += \
 "./Application/board_key.obj" \
 "./Application/board_lcd.obj" \
 "./Application/multi_role.obj" \
+"./Application/uart_printf.obj" \
 "./Application/util.obj" \
 $(GEN_CMDS__FLAG) \
 -l"libc.a" \
@@ -191,8 +192,8 @@ multi_role.hex: $(EXE_OUTPUTS)
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)$(GEN_CMDS__QUOTED)
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "Startup\Board.pp" "Startup\ccfg_appBLE.pp" "Startup\main.pp" "PROFILES\multi.pp" "ICallBLE\ICallBleAPI.pp" "ICallBLE\bleUserConfig.pp" "ICall\ICall.pp" "ICall\ICallCC2650.pp" "Drivers\UDMA\UDMACC26XX.pp" "Drivers\UART\UART.pp" "Drivers\UART\UARTCC26XX.pp" "Drivers\SPI\SPI.pp" "Drivers\SPI\SPICC26XXDMA.pp" "Drivers\PIN\PINCC26XX.pp" "Drivers\LCD\LCDDogm1286.pp" "Drivers\LCD\LCDDogm1286_util.pp" "Application\board_key.pp" "Application\board_lcd.pp" "Application\multi_role.pp" "Application\util.pp" 
-	-$(RM) "Startup\Board.obj" "Startup\ccfg_appBLE.obj" "Startup\main.obj" "PROFILES\multi.obj" "ICallBLE\ICallBleAPI.obj" "ICallBLE\bleUserConfig.obj" "ICall\ICall.obj" "ICall\ICallCC2650.obj" "Drivers\UDMA\UDMACC26XX.obj" "Drivers\UART\UART.obj" "Drivers\UART\UARTCC26XX.obj" "Drivers\SPI\SPI.obj" "Drivers\SPI\SPICC26XXDMA.obj" "Drivers\PIN\PINCC26XX.obj" "Drivers\LCD\LCDDogm1286.obj" "Drivers\LCD\LCDDogm1286_util.obj" "Application\board_key.obj" "Application\board_lcd.obj" "Application\multi_role.obj" "Application\util.obj" 
+	-$(RM) "Startup\Board.pp" "Startup\ccfg_appBLE.pp" "Startup\main.pp" "PROFILES\multi.pp" "ICallBLE\ICallBleAPI.pp" "ICallBLE\bleUserConfig.pp" "ICall\ICall.pp" "ICall\ICallCC2650.pp" "Drivers\UDMA\UDMACC26XX.pp" "Drivers\UART\UART.pp" "Drivers\UART\UARTCC26XX.pp" "Drivers\SPI\SPI.pp" "Drivers\SPI\SPICC26XXDMA.pp" "Drivers\PIN\PINCC26XX.pp" "Drivers\LCD\LCDDogm1286.pp" "Drivers\LCD\LCDDogm1286_util.pp" "Application\board_key.pp" "Application\board_lcd.pp" "Application\multi_role.pp" "Application\uart_printf.pp" "Application\util.pp" 
+	-$(RM) "Startup\Board.obj" "Startup\ccfg_appBLE.obj" "Startup\main.obj" "PROFILES\multi.obj" "ICallBLE\ICallBleAPI.obj" "ICallBLE\bleUserConfig.obj" "ICall\ICall.obj" "ICall\ICallCC2650.obj" "Drivers\UDMA\UDMACC26XX.obj" "Drivers\UART\UART.obj" "Drivers\UART\UARTCC26XX.obj" "Drivers\SPI\SPI.obj" "Drivers\SPI\SPICC26XXDMA.obj" "Drivers\PIN\PINCC26XX.obj" "Drivers\LCD\LCDDogm1286.obj" "Drivers\LCD\LCDDogm1286_util.obj" "Application\board_key.obj" "Application\board_lcd.obj" "Application\multi_role.obj" "Application\uart_printf.obj" "Application\util.obj" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

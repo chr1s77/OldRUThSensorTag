@@ -2,7 +2,7 @@
  *  Do not modify this file; it is automatically 
  *  generated and any modifications will be overwritten.
  *
- * @(#) xdc-A71
+ * @(#) xdc-A65
  */
 
 #define __nested__
@@ -74,6 +74,7 @@
 #include <xdc/runtime/Registry.h>
 #include <xdc/runtime/Startup.h>
 #include <xdc/runtime/SysCallback.h>
+#include <xdc/runtime/SysStd.h>
 #include <xdc/runtime/System.h>
 #include <xdc/runtime/Text.h>
 #include <xdc/runtime/Timestamp.h>
@@ -186,13 +187,13 @@ ti_sysbios_heaps_HeapMem_Module_GateProxy_Handle ti_sysbios_heaps_HeapMem_Module
 }
 
 /* Object__delete__S */
-void ti_sysbios_heaps_HeapMem_Module_GateProxy_Object__delete__S( xdc_Ptr instp ) 
+void ti_sysbios_heaps_HeapMem_Module_GateProxy_Object__delete__S( Ptr instp ) 
 {
     ti_sysbios_gates_GateMutex_Object__delete__S(instp);
 }
 
 /* delete */
-void ti_sysbios_heaps_HeapMem_Module_GateProxy_delete(ti_sysbios_heaps_HeapMem_Module_GateProxy_Handle *instp)
+Void ti_sysbios_heaps_HeapMem_Module_GateProxy_delete(ti_sysbios_heaps_HeapMem_Module_GateProxy_Handle *instp)
 {
     ti_sysbios_heaps_HeapMem_Module_GateProxy_Object__delete__S(instp);
 }
@@ -204,7 +205,7 @@ void ti_sysbios_heaps_HeapMem_Module_GateProxy_Params__init__S( xdc_Ptr dst, con
 }
 
 /* Handle__label__S */
-xdc_runtime_Types_Label *ti_sysbios_heaps_HeapMem_Module_GateProxy_Handle__label__S(xdc_Ptr obj, xdc_runtime_Types_Label *lab)
+xdc_runtime_Types_Label *ti_sysbios_heaps_HeapMem_Module_GateProxy_Handle__label__S(Ptr obj, xdc_runtime_Types_Label *lab)
 {
     return ti_sysbios_gates_GateMutex_Handle__label__S(obj, lab);
 }

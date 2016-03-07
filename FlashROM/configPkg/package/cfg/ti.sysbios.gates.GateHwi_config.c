@@ -2,7 +2,7 @@
  *  Do not modify this file; it is automatically 
  *  generated and any modifications will be overwritten.
  *
- * @(#) xdc-A71
+ * @(#) xdc-A65
  */
 
 #define __nested__
@@ -74,6 +74,7 @@
 #include <xdc/runtime/Registry.h>
 #include <xdc/runtime/Startup.h>
 #include <xdc/runtime/SysCallback.h>
+#include <xdc/runtime/SysStd.h>
 #include <xdc/runtime/System.h>
 #include <xdc/runtime/Text.h>
 #include <xdc/runtime/Timestamp.h>

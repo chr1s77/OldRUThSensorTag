@@ -92,6 +92,16 @@
 			<locationURI>PARENT-3-ORG_PROJ_DIR/Source/Application/multi_role.h</locationURI>
 		</link>
 		<link>
+			<name>Application/uart_printf.c</name>
+			<type>1</type>
+			<location>C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/Source/Application/uart_printf.c</location>
+		</link>
+		<link>
+			<name>Application/uart_printf.h</name>
+			<type>1</type>
+			<location>C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/Source/Application/uart_printf.h</location>
+		</link>
+		<link>
 			<name>Application/util.c</name>
 			<type>1</type>
 			<locationURI>TI_BLE_SDK_BASE/Projects/ble/common/cc26xx/util.c</locationURI>

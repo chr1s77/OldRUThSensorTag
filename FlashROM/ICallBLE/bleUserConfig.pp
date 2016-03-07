@@ -10,7 +10,7 @@ ICallBLE/bleUserConfig.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components
 ICallBLE/bleUserConfig.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/hal/target/CC2650TIRTOS/hal_types.h
 ICallBLE/bleUserConfig.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_7ID/board.h
 ICallBLE/bleUserConfig.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/PIN.h
-ICallBLE/bleUserConfig.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/std.h
+ICallBLE/bleUserConfig.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/std.h
 ICallBLE/bleUserConfig.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stdarg.h
 ICallBLE/bleUserConfig.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stddef.h
 ICallBLE/bleUserConfig.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/std.h
@@ -42,7 +42,7 @@ C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/hal/target/_common/cc26xx/r
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/hal/target/CC2650TIRTOS/hal_types.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_7ID/board.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/PIN.h: 
-C:/ti/xdctools_3_31_01_33_core/packages/xdc/std.h: 
+C:/ti/xdctools_3_31_00_24_core/packages/xdc/std.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stdarg.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stddef.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/std.h: 
