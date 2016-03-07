@@ -110,8 +110,8 @@
 								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.compiler.inputType__ASM2_SRCS.1517136906" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.compiler.inputType__ASM2_SRCS"/>
 							</tool>
 							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.exe.linkerDebug.1297540999" name="ARM Linker" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.exe.linkerDebug">
-								<option id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.STACK_SIZE.1182028005" name="Set C system stack size (--stack_size, -stack)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.STACK_SIZE" value="256" valueType="string"/>
-								<option id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.HEAP_SIZE.1572434690" name="Heap size for C/C++ dynamic memory allocation (--heap_size, -heap)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.HEAP_SIZE" value="0" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.STACK_SIZE.1182028005" name="Set C system stack size (--stack_size, -stack)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.STACK_SIZE" value="2048" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.HEAP_SIZE.1572434690" name="Heap size for C/C++ dynamic memory allocation (--heap_size, -heap)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.HEAP_SIZE" value="0x2048" valueType="string"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.MAP_FILE.465256134" name="Link information (map) listed into &lt;file&gt; (--map_file, -m)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.MAP_FILE" value="&quot;${ProjName}.map&quot;" valueType="string"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.OUTPUT_FILE.1445310251" name="Specify output file name (--output_file, -o)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.OUTPUT_FILE" value="&quot;${ProjName}.out&quot;" valueType="string"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.LIBRARY.1272289825" name="Include library file or command file as input (--library, -l)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_15.9.linkerID.LIBRARY" valueType="libs">
@@ -172,5 +172,9 @@
 		</project-mappings>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="FlashROM">
+			<resource resourceType="PROJECT" workspacePath="/multi_role"/>
+		</configuration>
+	</storageModule>
 </cproject>
