@@ -209,49 +209,15 @@ Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/b
 Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/osal/include/osal_snv.h
 Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/hal/target/CC2650TIRTOS/hal_types.h
 Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/ICall/Include/ICallBleAPIMSG.h
-Application/multi_role.obj: C:/Users/Christine/workspace_v6_1/multi_role/Application/util.h
+Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/common/cc26xx/util.h
 Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Clock.h
 Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Queue.h
 Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Semaphore.h
-Application/multi_role.obj: C:/Users/Christine/workspace_v6_1/multi_role/Application/board_lcd.h
-Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/common/cc26xx/board_key.h
 Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_7ID/Board.h
 Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/PIN.h
 Application/multi_role.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stddef.h
 Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/host/linkdb.h
 Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/Source/Application/multi_role.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/lcd/LCDDogm1286.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/SPI.h
-Application/multi_role.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stddef.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/Hwi.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IInstance.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/Hwi__prologue.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/package/package.defs.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Diags.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Log.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Assert.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Error.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/BIOS.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/BIOS__prologue.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/package/package.defs.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Error.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IModule.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IGateProvider.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/package/BIOS_RtsGateProxy.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IInstance.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IGateProvider.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/BIOS__epilogue.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/interfaces/IHwi.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IInstance.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Error.h
-Application/multi_role.obj: C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IModule.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/Hwi__epilogue.h
-Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Semaphore.h
 Application/multi_role.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/Source/Application/uart_printf.h
 Application/multi_role.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/UART.h
 Application/multi_role.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stddef.h
@@ -482,49 +448,15 @@ C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/Profiles/Roles/gapbondmgr
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/osal/include/osal_snv.h: 
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/hal/target/CC2650TIRTOS/hal_types.h: 
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/ICall/Include/ICallBleAPIMSG.h: 
-C:/Users/Christine/workspace_v6_1/multi_role/Application/util.h: 
+C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/common/cc26xx/util.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Clock.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Queue.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Semaphore.h: 
-C:/Users/Christine/workspace_v6_1/multi_role/Application/board_lcd.h: 
-C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/common/cc26xx/board_key.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_7ID/Board.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/PIN.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stddef.h: 
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/host/linkdb.h: 
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/Source/Application/multi_role.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/lcd/LCDDogm1286.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/SPI.h: 
-C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stddef.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/Hwi.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IInstance.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/Hwi__prologue.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/package/package.defs.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Diags.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Log.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Assert.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Error.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/BIOS.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/BIOS__prologue.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/package/package.defs.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Error.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IModule.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IGateProvider.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/package/BIOS_RtsGateProxy.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IInstance.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IGateProvider.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/BIOS__epilogue.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/interfaces/IHwi.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IInstance.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/Error.h: 
-C:/ti/xdctools_3_31_00_24_core/packages/xdc/runtime/IModule.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/Hwi__epilogue.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Semaphore.h: 
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/Source/Application/uart_printf.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/UART.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include/stddef.h: 

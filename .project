@@ -32,6 +32,11 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>Board_ST</name>
+			<type>2</type>
+			<location>C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/Source/Board_ST</location>
+		</link>
+		<link>
 			<name>Drivers</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -60,26 +65,6 @@
 			<name>TOOLS</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>Application/board_key.c</name>
-			<type>1</type>
-			<location>C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/common/cc26xx/board_key.c</location>
-		</link>
-		<link>
-			<name>Application/board_key.h</name>
-			<type>1</type>
-			<location>C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/common/cc26xx/board_key.h</location>
-		</link>
-		<link>
-			<name>Application/board_lcd.c</name>
-			<type>1</type>
-			<locationURI>TI_BLE_SDK_BASE/Projects/ble/common/cc26xx/board_lcd.c</locationURI>
-		</link>
-		<link>
-			<name>Application/board_lcd.h</name>
-			<type>1</type>
-			<locationURI>TI_BLE_SDK_BASE/Projects/ble/common/cc26xx/board_lcd.h</locationURI>
 		</link>
 		<link>
 			<name>Application/multi_role.c</name>
@@ -225,6 +210,16 @@
 			<name>Old/board_key.h</name>
 			<type>1</type>
 			<locationURI>TI_BLE_SDK_BASE/Projects/ble/common/cc26xx/board_key.h</locationURI>
+		</link>
+		<link>
+			<name>Old/board_lcd.c</name>
+			<type>1</type>
+			<locationURI>TI_BLE_SDK_BASE/Projects/ble/common/cc26xx/board_lcd.c</locationURI>
+		</link>
+		<link>
+			<name>Old/board_lcd.h</name>
+			<type>1</type>
+			<locationURI>TI_BLE_SDK_BASE/Projects/ble/common/cc26xx/board_lcd.h</locationURI>
 		</link>
 		<link>
 			<name>Startup/Board.c</name>

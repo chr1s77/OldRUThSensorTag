@@ -28,8 +28,6 @@ ORDERED_OBJS += \
 "./Drivers/PIN/PINCC26XX.obj" \
 "./Drivers/LCD/LCDDogm1286.obj" \
 "./Drivers/LCD/LCDDogm1286_util.obj" \
-"./Application/board_key.obj" \
-"./Application/board_lcd.obj" \
 "./Application/multi_role.obj" \
 "./Application/uart_printf.obj" \
 "./Application/util.obj" \
@@ -178,7 +176,7 @@ all: multi_role.out
 multi_role.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM Linker'
-	"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/bin/armcl" --cmd_file="C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/CCS/multi_role/../../IAR/Application/CC2640/../../../CCS/Config/ccsCompilerDefines.bcfg"  -mv7M3 --code_state=16 -me -O4 --opt_for_speed=0 -g --gcc --define=USE_ICALL --define=POWER_SAVING --define=SBP_TASK_STACK_SIZE=700 --define=GAPROLE_TASK_STACK_SIZE=520 --define=HEAPMGR_SIZE=7000 --define=GAP_ROLE_ABORT --define=TI_DRIVERS_SPI_DMA_INCLUDED --define=HEAPMGR_METRICS --define=TI_DRIVERS_LCD_INCLUDED --define=ICALL_MAX_NUM_TASKS=3 --define=ICALL_MAX_NUM_ENTITIES=7 --define=xdc_runtime_Assert_DISABLE_ALL --define=xdc_runtime_Log_DISABLE_ALL --define=MAX_NUM_BLE_CONNS=7 --define=CC26XXWARE --define=CC26XX --define=ccs --define=DEBUG --display_error_number --diag_wrap=off --diag_suppress=48 --diag_warning=225 --gen_func_subsections=on --abi=eabi -z -m"multi_role.map" --heap_size=0x2048 --stack_size=2048 -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/lib" -i"C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SensorTag/CC26xx/Source/Application/Board_patch" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include" --reread_libs --display_error_number --diag_suppress=10247-D --diag_wrap=off --warn_sections --xml_link_info="multi_role_linkInfo.xml" --rom_model --compress_dwarf=on --unused_section_elimination=on -o "multi_role.out" $(ORDERED_OBJS)
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/bin/armcl" --cmd_file="C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/multi_role/CC26xx/CCS/multi_role/../../IAR/Application/CC2640/../../../CCS/Config/ccsCompilerDefines.bcfg"  -mv7M3 --code_state=16 -me -O4 --opt_for_speed=0 -g --gcc --define=USE_ICALL --define=POWER_SAVING --define=SBP_TASK_STACK_SIZE=700 --define=GAPROLE_TASK_STACK_SIZE=520 --define=HEAPMGR_SIZE=7000 --define=GAP_ROLE_ABORT --define=TI_DRIVERS_SPI_DMA_INCLUDED --define=HEAPMGR_METRICS --define=TI_DRIVERS_LCD_INCLUDED --define=ICALL_MAX_NUM_TASKS=3 --define=ICALL_MAX_NUM_ENTITIES=7 --define=xdc_runtime_Assert_DISABLE_ALL --define=xdc_runtime_Log_DISABLE_ALL --define=MAX_NUM_BLE_CONNS=7 --define=CC26XXWARE --define=CC26XX --define=ccs --define=DEBUG --display_error_number --diag_wrap=off --diag_suppress=48 --diag_warning=225 --gen_func_subsections=on --abi=eabi -z -m"multi_role.map" --heap_size=0x2048 --stack_size=2048 -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/lib" -i -i"C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SensorTag/CC26xx/Source/Application/Board_patch" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.9.0.STS/include" --reread_libs --display_error_number --diag_suppress=10247-D --diag_wrap=off --warn_sections --xml_link_info="multi_role_linkInfo.xml" --rom_model --compress_dwarf=on --unused_section_elimination=on -o "multi_role.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -192,8 +190,8 @@ multi_role.hex: $(EXE_OUTPUTS)
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)$(GEN_CMDS__QUOTED)
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "Startup\Board.pp" "Startup\ccfg_appBLE.pp" "Startup\main.pp" "PROFILES\multi.pp" "ICallBLE\ICallBleAPI.pp" "ICallBLE\bleUserConfig.pp" "ICall\ICall.pp" "ICall\ICallCC2650.pp" "Drivers\UDMA\UDMACC26XX.pp" "Drivers\UART\UART.pp" "Drivers\UART\UARTCC26XX.pp" "Drivers\SPI\SPI.pp" "Drivers\SPI\SPICC26XXDMA.pp" "Drivers\PIN\PINCC26XX.pp" "Drivers\LCD\LCDDogm1286.pp" "Drivers\LCD\LCDDogm1286_util.pp" "Application\board_key.pp" "Application\board_lcd.pp" "Application\multi_role.pp" "Application\uart_printf.pp" "Application\util.pp" 
-	-$(RM) "Startup\Board.obj" "Startup\ccfg_appBLE.obj" "Startup\main.obj" "PROFILES\multi.obj" "ICallBLE\ICallBleAPI.obj" "ICallBLE\bleUserConfig.obj" "ICall\ICall.obj" "ICall\ICallCC2650.obj" "Drivers\UDMA\UDMACC26XX.obj" "Drivers\UART\UART.obj" "Drivers\UART\UARTCC26XX.obj" "Drivers\SPI\SPI.obj" "Drivers\SPI\SPICC26XXDMA.obj" "Drivers\PIN\PINCC26XX.obj" "Drivers\LCD\LCDDogm1286.obj" "Drivers\LCD\LCDDogm1286_util.obj" "Application\board_key.obj" "Application\board_lcd.obj" "Application\multi_role.obj" "Application\uart_printf.obj" "Application\util.obj" 
+	-$(RM) "Startup\Board.pp" "Startup\ccfg_appBLE.pp" "Startup\main.pp" "PROFILES\multi.pp" "ICallBLE\ICallBleAPI.pp" "ICallBLE\bleUserConfig.pp" "ICall\ICall.pp" "ICall\ICallCC2650.pp" "Drivers\UDMA\UDMACC26XX.pp" "Drivers\UART\UART.pp" "Drivers\UART\UARTCC26XX.pp" "Drivers\SPI\SPI.pp" "Drivers\SPI\SPICC26XXDMA.pp" "Drivers\PIN\PINCC26XX.pp" "Drivers\LCD\LCDDogm1286.pp" "Drivers\LCD\LCDDogm1286_util.pp" "Application\multi_role.pp" "Application\uart_printf.pp" "Application\util.pp" 
+	-$(RM) "Startup\Board.obj" "Startup\ccfg_appBLE.obj" "Startup\main.obj" "PROFILES\multi.obj" "ICallBLE\ICallBleAPI.obj" "ICallBLE\bleUserConfig.obj" "ICall\ICall.obj" "ICall\ICallCC2650.obj" "Drivers\UDMA\UDMACC26XX.obj" "Drivers\UART\UART.obj" "Drivers\UART\UARTCC26XX.obj" "Drivers\SPI\SPI.obj" "Drivers\SPI\SPICC26XXDMA.obj" "Drivers\PIN\PINCC26XX.obj" "Drivers\LCD\LCDDogm1286.obj" "Drivers\LCD\LCDDogm1286_util.obj" "Application\multi_role.obj" "Application\uart_printf.obj" "Application\util.obj" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

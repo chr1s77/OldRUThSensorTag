@@ -235,7 +235,7 @@ PROFILES/multi.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/hci
 PROFILES/multi.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/hci/hci_event.h
 PROFILES/multi.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/hci/hci_tl.h
 PROFILES/multi.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/host/linkdb.h
-PROFILES/multi.obj: C:/Users/Christine/workspace_v6_1/multi_role/Application/util.h
+PROFILES/multi.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/common/cc26xx/util.h
 PROFILES/multi.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Clock.h
 PROFILES/multi.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Queue.h
 PROFILES/multi.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Semaphore.h
@@ -481,7 +481,7 @@ C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/hci/hci_data.h:
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/hci/hci_event.h: 
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/hci/hci_tl.h: 
 C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Components/ble/host/linkdb.h: 
-C:/Users/Christine/workspace_v6_1/multi_role/Application/util.h: 
+C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/common/cc26xx/util.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Clock.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Queue.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Semaphore.h: 
